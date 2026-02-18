@@ -5,7 +5,7 @@ import heroImage from '../../assets/images/dra-geysa-hero.jpg';
 
 export const Hero: React.FC = () => {
     return (
-        <section id="hero" className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-background">
+        <section id="hero" className="relative pt-24 pb-20 lg:pt-36 lg:pb-32 overflow-hidden bg-background">
             {/* Background Decor */}
             <div className="absolute top-0 right-0 w-1/2 h-full bg-blob-pattern bg-no-repeat bg-right-top opacity-60 pointer-events-none" />
             <div className="absolute top-20 right-[-10%] w-[500px] h-[500px] bg-secondary/20 rounded-full blur-[100px] pointer-events-none" />
