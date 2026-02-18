@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #5B3E6A;
+    --color-secondary: #D1B3C4;
+    --color-background: #FCFBFC;
+    --color-text: #1F1A24;
+    --color-accent: #C28CAE;
+    --color-surface: #FFFFFF;
+
+    --font-serif: "Playfair Display", "Cormorant Garamond", serif;
+    --font-sans: "Inter", "Lato", sans-serif;
+
+    --shadow-soft: 0 4px 14px rgba(91, 62, 106, 0.1);
+    --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.04);
+
+    --background-image-blob-pattern: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23D1B3C4' fill-opacity='0.15' d='M44.7,-76.4C58.9,-69.2,71.8,-59.1,81.6,-46.6C91.4,-34.1,98.1,-19.2,95.8,-4.9C93.5,9.4,82.2,23.1,70.8,34.3C59.4,45.5,47.9,54.2,35.6,60.7C23.3,67.2,10.2,71.5,-2.1,75.1C-14.4,78.7,-25.9,81.6,-36.1,76.5C-46.3,71.4,-55.2,58.3,-63.1,45.2C-71,32.1,-77.9,19,-79.6,5.3C-81.3,-8.4,-77.8,-22.7,-69.5,-34.7C-61.2,-46.7,-48.1,-56.4,-34.8,-64.2C-21.5,-72,-8,-77.9,3.2,-83.4C14.4,-88.9,28.8,-94,40.6,-83.6L44.7,-76.4Z' transform='translate(100 100)' /%3E%3C/svg%3E");
+}
+
+html {
+    scroll-behavior: smooth;
+}
