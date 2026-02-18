@@ -24,13 +24,13 @@ export const Navbar: React.FC = () => {
                 <div className="flex justify-between items-center">
                     {/* Logo */}
                     <div
-                        className="flex flex-col items-center leading-none select-none cursor-pointer"
+                        className="flex flex-col items-start leading-none select-none cursor-pointer min-w-0"
                         onClick={() => window.scrollTo(0, 0)}
                     >
-                        <span className="font-serif text-2xl font-bold text-primary tracking-wide">
+                        <span className="font-serif text-lg sm:text-xl md:text-2xl font-bold text-primary tracking-wide truncate">
                             DRA. GEYSA HIGINO
                         </span>
-                        <span className="text-[10px] uppercase tracking-[0.2em] text-accent">
+                        <span className="text-[9px] sm:text-[10px] uppercase tracking-[0.15em] sm:tracking-[0.2em] text-accent">
                             Ginecologia e Obstetrícia
                         </span>
                     </div>
@@ -56,12 +56,13 @@ export const Navbar: React.FC = () => {
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <div className="md:hidden">
+                    <div className="md:hidden flex-shrink-0 ml-2">
                         <button
                             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                            className="text-primary p-2"
+                            className="text-primary p-2 relative z-50"
+                            aria-label="Menu"
                         >
-                            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                            {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
                         </button>
                     </div>
                 </div>
